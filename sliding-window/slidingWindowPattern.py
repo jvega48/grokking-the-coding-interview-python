@@ -1,6 +1,8 @@
 # brute force solution n^2
 import math
-
+# Problem Statement #
+# Given an array of positive numbers and a positive number ‘k’, find the maximum sum of any 
+# contiguous subarray of size ‘k’.
 
 def max_window_sum_of_size_k(k, arr):
     max_sum = 0
@@ -32,6 +34,10 @@ def max_window_sum_of_size_k_efficient(k, arr):
 
 print(max_window_sum_of_size_k_efficient(2, [2,3,4,1,5]))
 
+# Problem Statement #
+# Given an array of positive numbers and a positive number ‘S’, find the 
+# length of the smallest contiguous subarray whose sum is greater than or equal to ‘S’. 
+# Return 0, if no such subarray exists.
 
 def smallest_subarayy_with_given_sum(sum, arr):
     window_sum = 0
